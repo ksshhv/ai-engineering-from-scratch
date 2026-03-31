@@ -84,6 +84,7 @@ console.log(response.content[0].text);
 MiniMax provides an OpenAI-compatible endpoint, so you can use the `openai` SDK with a custom `base_url`. This pattern works for many providers.
 
 ```python
+import os
 import openai
 
 client = openai.OpenAI(

@@ -62,8 +62,10 @@ class SimpleAgent:
             provider = provider or os.environ.get("LLM_PROVIDER")
             self.llm_client = get_llm_client(provider)
             print(f"  Using LLM: {self.llm_client.provider} ({self.llm_client.default_model})")
-        except Exception:
-            print("  [No LLM configured — running in demo mode]")
+        except ImportError:
+            print("  [LLM provider module not found — running in demo mode]")
+        except (KeyError, ValueError) as exc:
+            print(f"  [LLM configuration error: {exc} — running in demo mode]")
 
     def run(self, user_message):
         self.messages.append({"role": "user", "content": user_message})
