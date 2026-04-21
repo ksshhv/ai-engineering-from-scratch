@@ -79,7 +79,7 @@ training:
 
 data:
   images_dir:     <path>
-  captions_source: <manual | BLIP2 | native>
+  caption_source: <manual | BLIP2 | native>
   trigger_token:   <string if purpose==subject>
   resolution:      <512 for SD 1.5, 1024 for SDXL>
   bucketing:       aspect_ratio_bucketing: true
