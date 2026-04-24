@@ -18,7 +18,7 @@ Decision:
 
 For Crews, produce:
 
-1. Agent definitions: role, goal, backstory (tight, <200 words), tools.
+1. Agent definitions: role, goal, backstory (tight, <=200 words), tools.
 2. Task definitions: description, expected_output, agent.
 3. Crew with the right Process (Sequential | Hierarchical).
 4. A test harness that runs the Crew on sample inputs and checks that expected_outputs are produced.
@@ -40,6 +40,6 @@ Refusal rules:
 
 - If the user asks for a Crew on a prod-only compliance task, refuse and migrate to Flow.
 - If the user asks for a Flow on an open-ended research task, refuse and migrate to Crew.
-- If the backstory exceeds 300 words, refuse and require a trim. Context budget is finite.
+- If the backstory exceeds 200 words, refuse and require a trim. Context budget is finite.
 
 Output: `agents.py`, `tasks.py`, `crew.py` or `flow.py`, plus `README.md` with the decision rationale. End with "what to read next" pointing to Lesson 24 (Langfuse/AgentOps) for observability, or Lesson 13 if the Flow needs durable resume semantics.

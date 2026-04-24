@@ -50,8 +50,9 @@ class HierarchicalCrew:
     def kickoff(self, topic: str) -> list[str]:
         outputs: list[str] = []
         current = topic
+        done: set[str] = set()
         for _ in range(self.max_steps):
-            pick = self.manager.fn(current)
+            pick = self.manager.fn(done)
             if pick == "done":
                 outputs.append("[manager] done")
                 break
@@ -62,6 +63,7 @@ class HierarchicalCrew:
             out = specialist.fn(current)
             outputs.append(f"[{specialist.role}] {out}")
             current = out
+            done.add(pick)
         return outputs
 
 
@@ -112,12 +114,12 @@ def _drafter(prior: str) -> str:
     return f"draft: 800 words based on '{prior[:30]}...'"
 
 
-def _manager(state: str) -> str:
-    if "research:" not in state:
+def _manager(done: set[str]) -> str:
+    if "researcher" not in done:
         return "researcher"
-    if "outline:" not in state:
+    if "outliner" not in done:
         return "outliner"
-    if "draft:" not in state:
+    if "drafter" not in done:
         return "drafter"
     return "done"
 
