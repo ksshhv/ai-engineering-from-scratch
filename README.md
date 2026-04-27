@@ -46,7 +46,7 @@
 
 </div>
 
-**272+ lessons. 20 phases. ~306 hours.** From linear algebra to autonomous agent swarms. Python, TypeScript, Rust, Julia. Every lesson produces something reusable: prompts, skills, agents, and MCP servers.
+**283+ lessons. 20 phases. ~320 hours.** From linear algebra to autonomous agent swarms. Python, TypeScript, Rust, Julia. Every lesson produces something reusable: prompts, skills, agents, and MCP servers.
 
 You don't just learn AI. You learn AI **with** AI. Then you build real things. Then you ship tools others can use.
 
@@ -159,7 +159,7 @@ Other courses end with *"congratulations, you learned X."* Our lessons end with 
 
 ## 🗺️ The Journey
 
-### *20 phases · 272+ lessons · click any phase to expand*
+### *20 phases · 283+ lessons · click any phase to expand*
 
 [![Phase 0](https://img.shields.io/badge/0-Setup-95A5A6?style=flat-square)](#phase-0)
 [![Phase 1](https://img.shields.io/badge/1-Math-9B59B6?style=flat-square)](#phase-1)
@@ -176,7 +176,7 @@ Other courses end with *"congratulations, you learned X."* Our lessons end with 
 [![Phase 12](https://img.shields.io/badge/12-Multimodal-16A085?style=flat-square)](#phase-12)
 [![Phase 13](https://img.shields.io/badge/13-Tools-2980B9?style=flat-square)](#phase-13)
 [![Phase 14](https://img.shields.io/badge/14-Agents-D35400?style=flat-square)](#phase-14)
-[![Phase 15](https://img.shields.io/badge/15-Autonomous-7F8C8D?style=flat-square)](#phase-15)
+[![Phase 15](https://img.shields.io/badge/15-Autonomous-8E44AD?style=flat-square)](#phase-15)
 [![Phase 16](https://img.shields.io/badge/16-Swarms-27AE60?style=flat-square)](#phase-16)
 [![Phase 17](https://img.shields.io/badge/17-Production-34495E?style=flat-square)](#phase-17)
 [![Phase 18](https://img.shields.io/badge/18-Ethics-D7BDE2?style=flat-square)](#phase-18)
@@ -517,157 +517,274 @@ Other courses end with *"congratulations, you learned X."* Our lessons end with 
 </details>
 
 <details id="phase-12">
-<summary><b>🟩 Phase 12 — Multimodal AI</b> &nbsp;<code>11 lessons</code>&nbsp; <em>See, hear, read, and reason across modalities.</em></summary>
+<summary><b>🟩 Phase 12 — Multimodal AI</b> &nbsp;<code>25 lessons</code>&nbsp; <em>See, hear, read, and reason across modalities — from ViT patches to computer-use agents.</em></summary>
 <br/>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Multimodal Representations | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
-| 02 | CLIP: Vision + Language | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 03 | Vision-Language Models | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 04 | Audio-Language Models | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 05 | Document Understanding | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 06 | Video-Language Models | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 07 | Multimodal RAG | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 |
-| 08 | Multimodal Agents | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 |
-| 09 | Text-to-Image Pipelines | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 10 | Text-to-Video Pipelines | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 11 | Any-to-Any Models | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 01 | [Vision Transformers and the Patch-Token Primitive](phases/12-multimodal-ai/01-vision-transformer-patch-tokens/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 02 | [CLIP and Contrastive Vision-Language Pretraining](phases/12-multimodal-ai/02-clip-contrastive-pretraining/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 03 | [BLIP-2 Q-Former as Modality Bridge](phases/12-multimodal-ai/03-blip2-qformer-bridge/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 04 | [Flamingo and Gated Cross-Attention](phases/12-multimodal-ai/04-flamingo-gated-cross-attention/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 05 | [LLaVA and Visual Instruction Tuning](phases/12-multimodal-ai/05-llava-visual-instruction-tuning/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 06 | [Any-Resolution Vision — Patch-n'-Pack and NaFlex](phases/12-multimodal-ai/06-any-resolution-patch-n-pack/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 07 | [Open-Weight VLM Recipes: What Actually Matters](phases/12-multimodal-ai/07-open-weight-vlm-recipes/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 08 | [LLaVA-OneVision: Single, Multi, Video](phases/12-multimodal-ai/08-llava-onevision-single-multi-video/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 09 | [Qwen-VL Family and Dynamic-FPS Video](phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 10 | [InternVL3 Native Multimodal Pretraining](phases/12-multimodal-ai/10-internvl3-native-multimodal/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 11 | [Chameleon Early-Fusion Token-Only](phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 12 | [Emu3 Next-Token Prediction for Generation](phases/12-multimodal-ai/12-emu3-next-token-for-generation/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 13 | [Transfusion Autoregressive + Diffusion](phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 14 | [Show-o Discrete-Diffusion Unified](phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 15 | [Janus-Pro Decoupled Encoders](phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 16 | [MIO Any-to-Any Streaming](phases/12-multimodal-ai/16-mio-any-to-any-streaming/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 17 | [Video-Language Temporal Grounding](phases/12-multimodal-ai/17-video-language-temporal-grounding/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 18 | [Long-Video at Million-Token Context](phases/12-multimodal-ai/18-long-video-million-token/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 19 | [Audio-Language Models: Whisper to AF3](phases/12-multimodal-ai/19-audio-language-whisper-to-af3/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 20 | [Omni Models: Thinker-Talker Streaming](phases/12-multimodal-ai/20-omni-models-thinker-talker/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 21 | [Embodied VLAs: RT-2, OpenVLA, π0, GR00T](phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 22 | [Document and Diagram Understanding](phases/12-multimodal-ai/22-document-diagram-understanding/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 23 | [ColPali Vision-Native Document RAG](phases/12-multimodal-ai/23-colpali-vision-native-rag/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 24 | [Multimodal RAG and Cross-Modal Retrieval](phases/12-multimodal-ai/24-multimodal-rag-cross-modal/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 25 | [Multimodal Agents and Computer-Use (Capstone)](phases/12-multimodal-ai/25-multimodal-agents-computer-use/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
 
 </details>
 
 <details id="phase-13">
-<summary><b>🟦 Phase 13 — Tools & Protocols</b> &nbsp;<code>10 lessons</code>&nbsp; <em>The interfaces between AI and the real world.</em></summary>
+<summary><b>🟦 Phase 13 — Tools & Protocols</b> &nbsp;<code>23 lessons</code>&nbsp; <em>The interfaces between AI and the real world.</em></summary>
 <br/>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Function Calling Deep Dive | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 |
-| 02 | Tool Use Patterns | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 03 | MCP: Model Context Protocol | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
-| 04 | Building MCP Servers | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🐍 |
-| 05 | Building MCP Clients | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🐍 |
-| 06 | MCP Resources, Prompts & Sampling | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 07 | Structured Output Schemas | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🐍 |
-| 08 | API Design for AI | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 09 | Browser Automation & Web Agents | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 10 | Build a Complete Tool Ecosystem | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🐍 |
+| 01 | [The Tool Interface](phases/13-tools-and-protocols/01-the-tool-interface/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 02 | [Function Calling Deep Dive](phases/13-tools-and-protocols/02-function-calling-deep-dive/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 03 | [Parallel and Streaming Tool Calls](phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 04 | [Structured Output](phases/13-tools-and-protocols/04-structured-output/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 05 | [Tool Schema Design](phases/13-tools-and-protocols/05-tool-schema-design/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 06 | [MCP Fundamentals](phases/13-tools-and-protocols/06-mcp-fundamentals/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 07 | [Building an MCP Server](phases/13-tools-and-protocols/07-building-an-mcp-server/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 08 | [Building an MCP Client](phases/13-tools-and-protocols/08-building-an-mcp-client/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 09 | [MCP Transports](phases/13-tools-and-protocols/09-mcp-transports/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 10 | [MCP Resources and Prompts](phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 11 | [MCP Sampling](phases/13-tools-and-protocols/11-mcp-sampling/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 12 | [MCP Roots and Elicitation](phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 13 | [MCP Async Tasks](phases/13-tools-and-protocols/13-mcp-async-tasks/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 14 | [MCP Apps](phases/13-tools-and-protocols/14-mcp-apps/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 15 | [MCP Security I — Tool Poisoning](phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 16 | [MCP Security II — OAuth 2.1](phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 17 | [MCP Gateways and Registries](phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 18 | [MCP Auth in Production — DCR + JWKS on iii](phases/13-tools-and-protocols/18-mcp-auth-production/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 19 | [A2A Protocol](phases/13-tools-and-protocols/19-a2a-protocol/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 20 | [OpenTelemetry GenAI](phases/13-tools-and-protocols/20-opentelemetry-genai/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 21 | [LLM Routing Layer](phases/13-tools-and-protocols/21-llm-routing-layer/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 22 | [Skills and Agent SDKs](phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 23 | [Capstone — Tool Ecosystem](phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
 
 </details>
 
 <details id="phase-14">
-<summary><b>🟧 Phase 14 — Agent Engineering</b> &nbsp;<code>15 lessons</code>&nbsp; <em>Build agents from first principles.</em></summary>
+<summary><b>🟧 Phase 14 — Agent Engineering</b> &nbsp;<code>30 lessons</code>&nbsp; <em>Build agents from first principles — loop, memory, planning, frameworks, benchmarks, production.</em></summary>
 <br/>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | [The Agent Loop](phases/14-agent-engineering/01-the-agent-loop/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 |
-| 02 | Tool Dispatch & Registration | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 03 | Planning: TodoWrite, DAGs | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 04 | Memory: Short-Term, Long-Term, Episodic | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🐍 |
-| 05 | Context Window Management | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 06 | Context Compression & Summarization | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 07 | Subagents: Delegation | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 08 | Skills & Knowledge Loading | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 09 | Permissions, Sandboxing & Safety | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🦀 |
-| 10 | File-Based Task Systems | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 11 | Background Task Execution | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 12 | Error Recovery & Self-Healing | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 13 | Hooks: PreToolUse, PostToolUse | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 14 | Eval-Driven Agent Development | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 |
-| 15 | Build a Complete AI Agent | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
+| 01 | [The Agent Loop](phases/14-agent-engineering/01-the-agent-loop/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 02 | [ReWOO and Plan-and-Execute](phases/14-agent-engineering/02-rewoo-plan-and-execute/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 03 | [Reflexion and Verbal Reinforcement Learning](phases/14-agent-engineering/03-reflexion-verbal-rl/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 04 | [Tree of Thoughts and LATS](phases/14-agent-engineering/04-tree-of-thoughts-lats/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 05 | [Self-Refine and CRITIC](phases/14-agent-engineering/05-self-refine-and-critic/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 06 | [Tool Use and Function Calling](phases/14-agent-engineering/06-tool-use-and-function-calling/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 07 | [Memory — Virtual Context and MemGPT](phases/14-agent-engineering/07-memory-virtual-context-memgpt/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 08 | [Memory Blocks and Sleep-Time Compute](phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 09 | [Hybrid Memory — Mem0 Vector + Graph + KV](phases/14-agent-engineering/09-hybrid-memory-mem0/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 10 | [Skill Libraries and Lifelong Learning — Voyager](phases/14-agent-engineering/10-skill-libraries-voyager/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 11 | [Planning with HTN and Evolutionary Search](phases/14-agent-engineering/11-planning-htn-and-evolutionary/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 12 | [Anthropic's Workflow Patterns](phases/14-agent-engineering/12-anthropic-workflow-patterns/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 13 | [LangGraph — Stateful Graphs and Durable Execution](phases/14-agent-engineering/13-langgraph-stateful-graphs/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 14 | [AutoGen v0.4 — Actor Model](phases/14-agent-engineering/14-autogen-actor-model/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 15 | [CrewAI — Role-Based Crews and Flows](phases/14-agent-engineering/15-crewai-role-based-crews/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 16 | [OpenAI Agents SDK — Handoffs, Guardrails, Tracing](phases/14-agent-engineering/16-openai-agents-sdk/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 17 | [Claude Agent SDK — Subagents and Session Store](phases/14-agent-engineering/17-claude-agent-sdk/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 18 | [Agno and Mastra — Production Runtimes](phases/14-agent-engineering/18-agno-and-mastra-runtimes/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 🟦 |
+| 19 | [Benchmarks — SWE-bench, GAIA, AgentBench](phases/14-agent-engineering/19-benchmarks-swebench-gaia/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 20 | [Benchmarks — WebArena and OSWorld](phases/14-agent-engineering/20-benchmarks-webarena-osworld/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 21 | [Computer Use — Claude, OpenAI CUA, Gemini](phases/14-agent-engineering/21-computer-use-agents/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 22 | [Voice Agents — Pipecat and LiveKit](phases/14-agent-engineering/22-voice-agents-pipecat-livekit/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 23 | [OpenTelemetry GenAI Semantic Conventions](phases/14-agent-engineering/23-otel-genai-conventions/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 24 | [Agent Observability — Langfuse, Phoenix, Opik](phases/14-agent-engineering/24-agent-observability-platforms/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 25 | [Multi-Agent Debate and Collaboration](phases/14-agent-engineering/25-multi-agent-debate/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 26 | [Failure Modes — Why Agents Break](phases/14-agent-engineering/26-failure-modes-agentic/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 27 | [Prompt Injection and the PVE Defense](phases/14-agent-engineering/27-prompt-injection-defense/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 28 | [Orchestration Patterns — Supervisor, Swarm, Hierarchical](phases/14-agent-engineering/28-orchestration-patterns/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 29 | [Production Runtimes — Queue, Event, Cron](phases/14-agent-engineering/29-production-runtimes/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 30 | [Eval-Driven Agent Development](phases/14-agent-engineering/30-eval-driven-agent-development/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
 
 </details>
 
 <details id="phase-15">
-<summary><b>⬜ Phase 15 — Autonomous Systems</b> &nbsp;<code>11 lessons</code>&nbsp; <em>Agents that run without human intervention safely.</em></summary>
+<summary><b>🟩 Phase 15 — Autonomous Systems</b> &nbsp;<code>22 lessons</code>&nbsp; <em>Long-horizon agents, self-improvement, and the 2026 safety stack.</em></summary>
 <br/>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | What Makes a System Autonomous | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
-| 02 | Autonomous Loops | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🐍 |
-| 03 | Self-Healing Agents | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 04 | AutoResearch: Autonomous Research | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🐍 |
-| 05 | Eval-Driven Loops | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 06 | Human-in-the-Loop | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 07 | Continuous Agents | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 08 | Cost-Aware Autonomous Systems | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 09 | Monitoring & Observability | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🦀 |
-| 10 | Safety Boundaries | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 11 | Build an Autonomous Coding Agent | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
+| 01 | [From Chatbots to Long-Horizon Agents (METR)](phases/15-autonomous-systems/01-long-horizon-agents/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 02 | [STaR, V-STaR, Quiet-STaR: Self-Taught Reasoning](phases/15-autonomous-systems/02-star-family-reasoning/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 03 | [AlphaEvolve: Evolutionary Coding Agents](phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 04 | [Darwin Gödel Machine: Self-Modifying Agents](phases/15-autonomous-systems/04-darwin-godel-machine/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 05 | [AI Scientist v2: Workshop-Level Research](phases/15-autonomous-systems/05-ai-scientist-v2/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 06 | [Automated Alignment Research (Anthropic AAR)](phases/15-autonomous-systems/06-automated-alignment-research/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 07 | [Recursive Self-Improvement: Capability vs Alignment](phases/15-autonomous-systems/07-recursive-self-improvement/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 08 | [Bounded Self-Improvement Designs](phases/15-autonomous-systems/08-bounded-self-improvement/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 09 | [Autonomous Coding Agent Landscape (SWE-bench, CodeAct)](phases/15-autonomous-systems/09-coding-agent-landscape/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 10 | [Claude Code Permission Modes and Auto Mode](phases/15-autonomous-systems/10-claude-code-permission-modes/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 11 | [Browser Agents and Indirect Prompt Injection](phases/15-autonomous-systems/11-browser-agents/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 12 | [Durable Execution for Long-Running Agents](phases/15-autonomous-systems/12-durable-execution/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 13 | [Action Budgets, Iteration Caps, Cost Governors](phases/15-autonomous-systems/13-cost-governors/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 14 | [Kill Switches, Circuit Breakers, Canary Tokens](phases/15-autonomous-systems/14-kill-switches-canaries/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 15 | [HITL: Propose-Then-Commit](phases/15-autonomous-systems/15-propose-then-commit/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 16 | [Checkpoints and Rollback](phases/15-autonomous-systems/16-checkpoints-rollback/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 17 | [Constitutional AI and Rule Overrides](phases/15-autonomous-systems/17-constitutional-ai/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 18 | [Llama Guard and Input/Output Classification](phases/15-autonomous-systems/18-llama-guard/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 19 | [Anthropic Responsible Scaling Policy v3.0](phases/15-autonomous-systems/19-anthropic-rsp/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 20 | [OpenAI Preparedness Framework and DeepMind FSF](phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 21 | [METR Time Horizons and External Evaluation](phases/15-autonomous-systems/21-metr-external-evaluation/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 22 | [CAIS, CAISI, and Societal-Scale Risk](phases/15-autonomous-systems/22-cais-caisi-societal-risk/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
 
 </details>
 
 <details id="phase-16">
-<summary><b>🟩 Phase 16 — Multi-Agent & Swarms</b> &nbsp;<code>14 lessons</code>&nbsp; <em>Coordination, emergence, and collective intelligence.</em></summary>
+<summary><b>🟩 Phase 16 — Multi-Agent & Swarms</b> &nbsp;<code>25 lessons</code>&nbsp; <em>Coordination, emergence, and collective intelligence.</em></summary>
 <br/>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | [Why Multi-Agent](phases/16-multi-agent-and-swarms/01-why-multi-agent/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
-| 02 | Agent Teams: Roles & Delegation | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
+| 01 | [Why Multi-Agent](phases/16-multi-agent-and-swarms/01-why-multi-agent/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🟦 |
+| 02 | [FIPA-ACL Heritage and Speech Acts](phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
 | 03 | [Communication Protocols](phases/16-multi-agent-and-swarms/03-communication-protocols/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 04 | Shared State & Coordination | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🦀 |
-| 05 | Message Passing & Mailboxes | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 06 | Task Markets | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 07 | Consensus Algorithms | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🦀 |
-| 08 | Swarm Intelligence | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 |
-| 09 | Agent Economies | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 10 | Worktree Isolation | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 11 | Hierarchical Swarms | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 12 | Self-Organizing Systems | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🦀 |
-| 13 | DAG-Based Orchestration | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🦀 |
-| 14 | Build an Autonomous Swarm | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🦀 |
+| 04 | [The Multi-Agent Primitive Model](phases/16-multi-agent-and-swarms/04-primitive-model/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 05 | [Supervisor / Orchestrator-Worker Pattern](phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 06 | [Hierarchical Architecture and Decomposition Drift](phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 07 | [Society of Mind and Multi-Agent Debate](phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 08 | [Role Specialization — Planner / Critic / Executor / Verifier](phases/16-multi-agent-and-swarms/08-role-specialization/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 09 | [Parallel Swarm and Networked Architectures](phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 10 | [Group Chat and Speaker Selection](phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 11 | [Handoffs and Routines (Stateless Orchestration)](phases/16-multi-agent-and-swarms/11-handoffs-and-routines/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 12 | [A2A — The Agent-to-Agent Protocol](phases/16-multi-agent-and-swarms/12-a2a-protocol/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 13 | [Shared Memory and Blackboard Patterns](phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 14 | [Consensus and Byzantine Fault Tolerance](phases/16-multi-agent-and-swarms/14-consensus-and-bft/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 15 | [Voting, Self-Consistency, and Debate Topology](phases/16-multi-agent-and-swarms/15-voting-debate-topology/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 16 | [Negotiation and Bargaining](phases/16-multi-agent-and-swarms/16-negotiation-bargaining/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 17 | [Generative Agents and Emergent Simulation](phases/16-multi-agent-and-swarms/17-generative-agents-simulation/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 18 | [Theory of Mind and Emergent Coordination](phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 19 | [Swarm Optimization (PSO, ACO)](phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 20 | [MARL — MADDPG, QMIX, MAPPO](phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 21 | [Agent Economies, Token Incentives, Reputation](phases/16-multi-agent-and-swarms/21-agent-economies/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 22 | [Production Scaling — Queues, Checkpoints, Durability](phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 23 | [Failure Modes — MAST, Groupthink, Monoculture](phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 24 | [Evaluation and Coordination Benchmarks](phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 25 | [Case Studies and 2026 State of the Art](phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
 
 </details>
 
 <details id="phase-17">
-<summary><b>⬛ Phase 17 — Infrastructure & Production</b> &nbsp;<code>11 lessons</code>&nbsp; <em>Ship AI to the real world.</em></summary>
+<summary><b>⬛ Phase 17 — Infrastructure & Production</b> &nbsp;<code>28 lessons</code>&nbsp; <em>Ship AI to the real world.</em></summary>
 <br/>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | Model Serving | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 02 | Docker for AI Workloads | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🦀 |
-| 03 | Kubernetes for AI | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 04 | Edge Deployment: ONNX, WASM | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🦀 |
-| 05 | Observability | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 🦀 |
-| 06 | Cost Optimization | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🟦 |
-| 07 | CI/CD for ML | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 08 | A/B Testing & Feature Flags | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 |
-| 09 | Data Pipelines | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🦀 |
-| 10 | Security: Red Teaming, Defense | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 |
-| 11 | Build a Production AI Platform | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 🟦 🦀 |
+| 01 | Managed LLM Platforms — Bedrock, Azure OpenAI, Vertex AI | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 02 | Inference Platform Economics — Fireworks, Together, Baseten, Modal | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 03 | GPU Autoscaling on Kubernetes — Karpenter, KAI Scheduler | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 04 | vLLM Serving Internals — PagedAttention, Continuous Batching, Chunked Prefill | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 05 | EAGLE-3 Speculative Decoding in Production | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 06 | SGLang and RadixAttention for Prefix-Heavy Workloads | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 07 | TensorRT-LLM on Blackwell with FP8 and NVFP4 | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 08 | Inference Metrics — TTFT, TPOT, ITL, Goodput, P99 | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 09 | Production Quantization — AWQ, GPTQ, GGUF, FP8, NVFP4 | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 10 | Cold Start Mitigation for Serverless LLMs | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 11 | Multi-Region LLM Serving and KV Cache Locality | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 12 | Edge Inference — ANE, Hexagon, WebGPU, Jetson | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 13 | LLM Observability Stack Selection | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 14 | Prompt Caching and Semantic Caching Economics | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 15 | Batch APIs — the 50% Discount as Industry Standard | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 16 | Model Routing as a Cost-Reduction Primitive | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 17 | Disaggregated Prefill/Decode — NVIDIA Dynamo and llm-d | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 18 | vLLM Production Stack with LMCache KV Offloading | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 19 | AI Gateways — LiteLLM, Portkey, Kong, Bifrost | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 20 | Shadow, Canary, and Progressive Deployment | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 21 | A/B Testing LLM Features — GrowthBook and Statsig | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 22 | Load Testing LLM APIs — k6, LLMPerf, GenAI-Perf | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 23 | SRE for AI — Multi-Agent Incident Response | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 24 | Chaos Engineering for LLM Production | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 25 | Security — Secrets, PII Scrubbing, Audit Logs | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 26 | Compliance — SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001 | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 27 | FinOps for LLMs — Unit Economics and Multi-Tenant Attribution | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 28 | Self-Hosted Serving Selection — llama.cpp, Ollama, TGI, vLLM, SGLang | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
 
 </details>
 
 <details id="phase-18">
-<summary><b>🟪 Phase 18 — Ethics, Safety & Alignment</b> &nbsp;<code>6 lessons</code>&nbsp; <em>Build AI that helps humanity. Not optional.</em></summary>
+<summary><b>🟪 Phase 18 — Ethics, Safety & Alignment</b> &nbsp;<code>30 lessons</code>&nbsp; <em>Build AI that helps humanity. Not optional.</em></summary>
 <br/>
 
 | # | Lesson | Type | Lang |
 |:---:|--------|:----:|------|
-| 01 | AI Ethics: Bias, Fairness | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
-| 02 | Alignment: What & Why | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
-| 03 | Red Teaming & Adversarial Testing | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 04 | Responsible AI Frameworks | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
-| 05 | Privacy: Differential Privacy, FL | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
-| 06 | Interpretability: SHAP, Attention | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 01 | [Instruction-Following as Alignment Signal](phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 02 | [Reward Hacking & Goodhart's Law](phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 03 | [Direct Preference Optimization Family](phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 04 | [Sycophancy as RLHF Amplification](phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 05 | [Constitutional AI & RLAIF](phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 06 | [Mesa-Optimization & Deceptive Alignment](phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 07 | [Sleeper Agents — Persistent Deception](phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 08 | [In-Context Scheming in Frontier Models](phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 09 | [Alignment Faking](phases/18-ethics-safety-alignment/09-alignment-faking/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 10 | [AI Control — Safety Despite Subversion](phases/18-ethics-safety-alignment/10-ai-control-subversion/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 11 | [Scalable Oversight & Weak-to-Strong](phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 12 | [Red-Teaming: PAIR & Automated Attacks](phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 13 | [Many-Shot Jailbreaking](phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 14 | [ASCII Art & Visual Jailbreaks](phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 15 | [Indirect Prompt Injection](phases/18-ethics-safety-alignment/15-indirect-prompt-injection/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 16 | [Red-Team Tooling: Garak, Llama Guard, PyRIT](phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 17 | [WMDP & Dual-Use Capability Evaluation](phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 18 | [Frontier Safety Frameworks — RSP, PF, FSF](phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
+| 19 | [Model Welfare Research](phases/18-ethics-safety-alignment/19-model-welfare-research/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 20 | [Bias & Representational Harm](phases/18-ethics-safety-alignment/20-bias-representational-harm/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 21 | [Fairness Criteria: Group, Individual, Counterfactual](phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 22 | [Differential Privacy for LLMs](phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 23 | [Watermarking: SynthID, Stable Signature, C2PA](phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 24 | [Regulatory Frameworks: EU, US, UK, Korea](phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
+| 25 | [EchoLeak & CVEs for AI](phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 26 | [Model, System & Dataset Cards](phases/18-ethics-safety-alignment/26-model-system-dataset-cards/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 27 | [Data Provenance & Training-Data Governance](phases/18-ethics-safety-alignment/27-data-provenance-training-governance/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | 🐍 |
+| 28 | [Alignment Research Ecosystem: MATS, Redwood, Apollo, METR](phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
+| 29 | [Moderation Systems: OpenAI, Perspective, Llama Guard](phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/) | ![Build](https://img.shields.io/badge/-Build-2ECC71?style=flat-square) | 🐍 |
+| 30 | [Dual-Use Risk: Cyber, Bio, Chem, Nuclear](phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/) | ![Learn](https://img.shields.io/badge/-Learn-3498DB?style=flat-square) | — |
 
 </details>
 
 <details id="phase-19">
-<summary><b>🏆 Phase 19 — Capstone Projects</b> &nbsp;<code>5 projects</code>&nbsp; <em>Prove everything you learned.</em></summary>
+<summary><b>🏆 Phase 19 — Capstone Projects</b> &nbsp;<code>17 projects</code>&nbsp; <em>2026 end-to-end shippable products, 20-40 hours each.</em></summary>
 <br/>
 
 | # | Project | Combines | Lang |
 |:---:|---------|----------|------|
-| 01 | 🤖 Build a Mini GPT & Chat Interface | Phases 1, 3, 7, 10 | 🐍 🟦 |
-| 02 | 🔍 Build a Multimodal RAG System | Phases 5, 11, 12, 13 | 🐍 🟦 |
-| 03 | 🧪 Build an Autonomous Research Agent | Phases 14, 15, 6 | 🟦 🐍 |
-| 04 | 👥 Build a Multi-Agent Dev Team | Phases 14, 15, 16, 17 | 🟦 🦀 |
-| 05 | 🚀 Build a Production AI Platform | All phases | 🐍 🟦 🦀 |
+| 01 | [Terminal-Native Coding Agent](phases/19-capstone-projects/01-terminal-native-coding-agent/) | P0 P5 P7 P10 P11 P13 P14 P15 P17 P18 | 🟦 🐍 |
+| 02 | [RAG over Codebase (Cross-Repo Semantic Search)](phases/19-capstone-projects/02-rag-over-codebase/) | P5 P7 P11 P13 P17 | 🐍 🟦 |
+| 03 | [Real-Time Voice Assistant (ASR → LLM → TTS)](phases/19-capstone-projects/03-realtime-voice-assistant/) | P6 P7 P11 P13 P14 P17 | 🐍 🟦 |
+| 04 | [Multimodal Document QA (Vision-First)](phases/19-capstone-projects/04-multimodal-document-qa/) | P4 P5 P7 P11 P12 P17 | 🐍 🟦 |
+| 05 | [Autonomous Research Agent (AI-Scientist Class)](phases/19-capstone-projects/05-autonomous-research-agent/) | P0 P2 P3 P7 P10 P14 P15 P16 P18 | 🐍 |
+| 06 | [DevOps Troubleshooting Agent for Kubernetes](phases/19-capstone-projects/06-devops-troubleshooting-agent/) | P11 P13 P14 P15 P17 P18 | 🐍 🟦 |
+| 07 | [End-to-End Fine-Tuning Pipeline](phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/) | P2 P3 P7 P10 P11 P17 P18 | 🐍 |
+| 08 | [Production RAG Chatbot (Regulated Vertical)](phases/19-capstone-projects/08-production-rag-chatbot/) | P5 P7 P11 P12 P17 P18 | 🐍 🟦 |
+| 09 | [Code Migration Agent (Repo-Level Upgrade)](phases/19-capstone-projects/09-code-migration-agent/) | P5 P7 P11 P13 P14 P15 P17 | 🐍 🟦 |
+| 10 | [Multi-Agent Software Engineering Team](phases/19-capstone-projects/10-multi-agent-software-team/) | P11 P13 P14 P15 P16 P17 | 🐍 🟦 |
+| 11 | [LLM Observability & Eval Dashboard](phases/19-capstone-projects/11-llm-observability-dashboard/) | P11 P13 P17 P18 | 🟦 🐍 |
+| 12 | [Video Understanding Pipeline (Scene → QA)](phases/19-capstone-projects/12-video-understanding-pipeline/) | P4 P6 P7 P11 P12 P17 | 🐍 🟦 |
+| 13 | [MCP Server with Registry and Governance](phases/19-capstone-projects/13-mcp-server-with-registry/) | P11 P13 P14 P17 P18 | 🐍 🟦 |
+| 14 | [Speculative-Decoding Inference Server](phases/19-capstone-projects/14-speculative-decoding-server/) | P3 P7 P10 P17 | 🐍 |
+| 15 | [Constitutional Safety Harness + Red-Team Range](phases/19-capstone-projects/15-constitutional-safety-harness/) | P10 P11 P13 P14 P18 | 🐍 |
+| 16 | [GitHub Issue-to-PR Autonomous Agent](phases/19-capstone-projects/16-github-issue-to-pr-agent/) | P11 P13 P14 P15 P17 | 🐍 🟦 |
+| 17 | [Personal AI Tutor (Adaptive, Multimodal)](phases/19-capstone-projects/17-personal-ai-tutor/) | P5 P6 P11 P12 P14 P17 P18 | 🐍 🟦 |
 
 </details>
 

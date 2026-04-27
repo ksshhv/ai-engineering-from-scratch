@@ -19,6 +19,7 @@
     initCopyButton();
     initSmoothScroll();
     initFadeObserver();
+    initHeroSearch();
   });
 
   function updateThemeIcon() {
@@ -237,7 +238,7 @@
       } else {
         html += '<a>' + escapeHtml(l.name) + '</a>';
       }
-      html += '<span class="modal-lesson-type" data-type="' + escapeHtml(l.type) + '">' + escapeHtml(l.type) + '</span>';
+      html += '<span class="modal-lesson-type" data-type="' + escapeHtml(l.type) + '"' + (l.combines ? ' title="Combines: ' + escapeHtml(l.combines) + '"' : '') + '>' + escapeHtml(l.type) + '</span>';
       html += '<span class="modal-lesson-lang">' + escapeHtml(l.lang) + '</span>';
 
       var actionHtml = '';
@@ -332,6 +333,21 @@
           target.scrollIntoView({ behavior: 'smooth' });
         }
       });
+    });
+  }
+
+  function initHeroSearch() {
+    var form = document.querySelector('.hero-search');
+    if (!form) return;
+    form.addEventListener('submit', function (e) {
+      var input = form.querySelector('input[name="q"]');
+      if (!input) return;
+      var trimmed = input.value.trim();
+      if (!trimmed) {
+        e.preventDefault();
+        return;
+      }
+      input.value = trimmed;
     });
   }
 

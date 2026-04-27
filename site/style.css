@@ -1,6 +1,6 @@
 :root {
-  --font-heading: 'Kalam', cursive;
-  --font-body: 'Patrick Hand', cursive;
+  --font-heading: 'Kalam', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   --font-mono: 'JetBrains Mono', 'Consolas', monospace;
 
   --bg: #0d0d18;
@@ -14,6 +14,7 @@
   --secondary: #6ba3ff;
   --complete: #5ab88f;
   --planned: #807060;
+  --warn: #F1C40F;
   --shadow-color: #ff6b6b;
   --shadow-hard: 4px 4px 0 var(--shadow-color);
   --shadow-hard-lg: 6px 6px 0 var(--shadow-color);
@@ -22,6 +23,7 @@
   --modal-bg: #141428;
   --header-bg: rgba(13, 13, 24, 0.94);
   --code-bg: #111122;
+  --header-offset: 92px;
 }
 
 [data-theme="light"] {
@@ -36,6 +38,7 @@
   --secondary: #2d5da1;
   --complete: #2e8b57;
   --planned: #a08060;
+  --warn: #B7791F;
   --shadow-color: #2d2d2d;
   --shadow-hard: 4px 4px 0 var(--shadow-color);
   --shadow-hard-lg: 6px 6px 0 var(--shadow-color);
@@ -342,6 +345,40 @@ a:hover {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
+}
+
+.hero-search {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-search input[type="search"] {
+  flex: 1 1 320px;
+  min-width: 220px;
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  background: var(--bg-surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.hero-search input[type="search"]:focus {
+  border-color: var(--accent);
+}
+
+.hero-search input[type="search"]:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
 .hero-stars {
@@ -894,6 +931,11 @@ a:hover {
 .modal-lesson-type[data-type="Learn"] {
   color: var(--accent);
   border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+.modal-lesson-type[data-type="Capstone"] {
+  color: var(--warn);
+  border-color: color-mix(in srgb, var(--warn) 35%, var(--border));
 }
 
 .modal-lesson .modal-lesson-read {
