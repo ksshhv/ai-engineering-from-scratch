@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/rohitg00-ai-engineering-from-scratch-badge.png)](https://mseep.ai/app/rohitg00-ai-engineering-from-scratch)
+
 <div align="center">
 
 <img src="assets/banner.svg" alt="AI Engineering from Scratch" width="100%">
